@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 40px;
+    font-family:"Poppins";
+}
+.jadwal{
+    max-width: 900px;
+    border: 1px solid turquoise;
+    background-color: gray;
+    padding: 15px;
+    overflow: auto;
+    margin: auto;
+    border-radius: 4px;    
+}
+table{
+  width: 100%;
+  font-size: 14px;
+  color: aquamarine;
+  white-space: nowrap;  
+  border-collapse: collapse;
+}
+table>thead{
+   background-color: turquoise ;
+   color: whitesmoke;
+
+}
+table>thead th{
+    padding: 15px;
+}
+table th, table td{
+ border: 1px solid white;   
+ padding: 7px 10px;
+}
+.action-btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.action-btn>a{
+    text-decoration: none;
+    color: whitesmoke;
+    background: transparent;  
+    border: 1px solid rgb(247, 232, 213);
+    display: inline-block;
+    padding: 7px 17px;
+    font-weight: bold;
+    transition:.2s ease-in-out ;
+    border-radius: 13px;
+    
+}
+.action-btn>a:nth-child(1){
+   background: rgb(59, 135, 84);
+}
+.action-btn>a:nth-child(2){
+    background:rgb(91, 70, 70);
+
+}
+.action-btn>a:hover{
+ box-shadow: 0 2px 8px rgb(14, 14, 41);   
+}
+table>tbody>tr:nth-child(even){
+    background-color:#727070;
+}
+table>tbody>tr:hover{
+    filter: drop-shadow(0 2px 4px #fff);
+}
